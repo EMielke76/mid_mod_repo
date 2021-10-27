@@ -1,7 +1,8 @@
-**Iteration I**
+##Iteration I
 
 Use TDD to create a Student class that responds to the following interaction pattern:
 
+```ruby
 pry(main)> require './lib/student'
 # => true
 
@@ -26,11 +27,12 @@ pry(main)> student.scores
 
 pry(main)> student.grade #Average of all the scores
 # => 83.5
+```
 
-**Iteration II**
+## Iteration II
 Use TDD to create a Course class that responds to the following interaction pattern:
 
-
+```ruby
 pry(main)> require './lib/course'
 # => true
 
@@ -67,3 +69,4 @@ pry(main)> course.students
 
 pry(main)> course.full?
 # => true
+```
