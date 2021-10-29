@@ -15,5 +15,6 @@ class Course
 
   def enroll(student)
     @students << student
-  end 
+    student.enrolled_in += 1
+  end
 end
