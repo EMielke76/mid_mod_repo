@@ -10,7 +10,7 @@ RSpec.describe Course do
     describe "Course" do
       it 'exists' do
 
-        expect(course).to be_a (Course)
+        expect(course).to be_a(Course)
       end
 
       it 'has attributes' do
