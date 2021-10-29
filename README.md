@@ -70,3 +70,17 @@ pry(main)> course.students
 pry(main)> course.full?
 # => true
 ```
+
+## Iteration III
+
+Iteration 3
+You have been contracted by the University of Denver to write a program that can track terms. Specifically, they would like you to implement the following functionality:
+
+1. XX Each term has a name, like "Winter 2018" as well as a way to read that data
+2. XX Each term has a list of multiple courses
+3. XX A term can list all courses that are open. A course is open if it has fewer students than its capacity.
+4. XX A term can list all student names across all courses.
+Build upon your code from the first two iterations to complete this task.
+
+## Iteration IV
+The University of Denver would also like you to build functionality for collecting tuition. A Student's tuition varies depending on how many courses they are enrolled in. Additionally, students should be eligible for a scholarship (discounted tuition) if their average grade across all courses meets some expectation.
